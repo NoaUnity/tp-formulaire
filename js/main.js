@@ -56,7 +56,7 @@ window.onload = function(){
             flag2 = true;
         }
         else{
-            pseudoResult.innerHTML = "Le mot de passe doit faire au moins 5 caractères";
+            passwordResult.innerHTML = "Le mot de passe doit faire au moins 5 caractères";
             flag2 = false;
         }
     }
