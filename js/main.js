@@ -41,7 +41,7 @@ window.onload = function(){
 
     function verifPseudo (nom){
         if(3 <= nom.value.length && nom.value.length <= 10){
-            pseudoResult.innerHTML = "Le pseudo", pseudo.value, "est valide";
+            pseudoResult.innerHTML = "Le pseudo " + pseudo.value + " est valide";
             flag1 = true;
         }
         else{
